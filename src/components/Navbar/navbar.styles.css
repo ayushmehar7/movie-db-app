@@ -1,0 +1,41 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0e4d92;
+    width: 100%;
+}
+
+.navbar__img{
+    width: 10vh;
+    height: 10vh;
+    margin-left: 2vh;
+}
+
+.navbar__search{
+    display: flex;
+    align-items: center;
+    margin-right: 2.5vh;
+}
+
+.navbar__input{
+    width: 50vh;
+    height: 6.5vh;
+    border-radius: 5vh;
+    border: none;
+    padding : 2.5vh;
+    font: inherit;
+}
+
+.navbar__input:focus{
+    outline: none;
+}
+
+.navbar__button{
+    width: 10vh;
+    height: 5vh;
+}
+
+.navbar__button:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}

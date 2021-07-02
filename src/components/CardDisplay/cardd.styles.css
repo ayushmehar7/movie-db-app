@@ -1,0 +1,15 @@
+.card__img{
+    width: 25vh;
+    height: 35vh;
+}
+
+@keyframes hoverEffect {
+    0% {transform: scale(1);}
+    100% {transform: scale(1.25);}
+}
+
+.card__img:hover{
+    transform: scale(1.25);
+    animation-name: hoverEffect;
+    animation-duration: 0.5s;
+}

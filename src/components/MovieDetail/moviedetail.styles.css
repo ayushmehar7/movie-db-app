@@ -1,0 +1,76 @@
+.movie-detail-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+
+.movie-backdrop{
+    height: 50vh;
+    width: 50%;
+}
+
+.movie-details{
+    display: flex;
+    width: inherit;
+    background-color: #9CC3D5FF;
+    justify-content: space-around;
+}
+
+.movie-logo{
+    margin-top: 5vh; 
+    width: 25%;
+    height: 50vh;
+    margin-bottom: 5vh;
+    margin-left: 10vh;
+}
+
+.movie-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+.star{
+    width: 5vh;
+    height: 5vh;
+    padding-right: 1vh;
+}
+
+.movie-time-details{
+    display: flex;
+    justify-content:stretch;
+}
+
+.movie-links{
+    display: flex;
+    margin-top: 2vh;
+}
+
+.movie-links-logo{
+    width: 5vh;
+    height: 5vh;
+}
+
+.movie-links-button{
+    border: none;
+    padding: 2vh;
+    border-radius: 1vh;
+    display: flex;
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 5vh;
+    margin-left: 5vh;
+}
+
+.movie-links-button:focus{
+    outline: none;
+}
+
+.imdb{
+    background-color: ;
+}

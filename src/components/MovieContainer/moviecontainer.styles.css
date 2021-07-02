@@ -1,0 +1,14 @@
+.movie-genres{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 5vh;
+    color: white;
+}
+
+.genre-cards{
+    margin-left: 2.5vh;
+    display: flex;
+}

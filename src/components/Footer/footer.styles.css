@@ -1,0 +1,39 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #0e4d92;
+    color: white;
+}
+
+.footer__about{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 5vh;
+}
+
+.footer__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 6vh;
+    list-style-type: none;
+}
+
+
+.footer__links a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer__links__logo{
+    height: 5vh; 
+    width:5vh;
+}
+
+.footer__logo{
+    width: 25vh;
+    height: 25vh;
+    margin-left: 2.5vh;
+}
