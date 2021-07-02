@@ -13,6 +13,7 @@ const MovieContainer = (props)=>{
             try{
                 const response = await axios.get(URL)
                 setMovies(response.data.results.splice(0,8))
+                console.log(response.data.results[0])
             }catch(e){
                 alert(e)
             }
@@ -25,7 +26,13 @@ const MovieContainer = (props)=>{
         <br/>
         <div className="genre-cards" >
             {movies.map(movie => (
-                <Card key= {movie.id} id = {movie.id} title = {movie.title} poster = {movie.poster_path}/>
+                <Card key= {movie.id} 
+                id = {movie.id} 
+                title = {movie.title} 
+                poster = {movie.poster_path}
+                rating = {movie.vote_average}
+                genre = {props.genre}
+                />
             ))}
         </div>
     </div>
