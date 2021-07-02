@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable react-hooks/exhaustive-deps */
 import "./moviedetail.styles.css"
 import { useParams } from "react-router";
@@ -109,6 +110,7 @@ const MovieDetail = (props)=>{
                     <div className="movie-links" >
                         <a href = {`https://www.imdb.com/title/${movie.imdb_id}`} 
                         style = {{backgroundColor : "#f3ce13"}}
+                        target = "_blank"
                         className="movie-links-button" >
                             <SiImdb className="movie-links-logo" />
                             <p style={{marginTop : "1.25vh",marginLeft : "1vh"}}>IMDb Page</p>
@@ -116,6 +118,7 @@ const MovieDetail = (props)=>{
                         <a href={`${movie.homepage}`} 
                         style = {{backgroundColor : "#0e4d92"}}
                         className="movie-links-button" 
+                        target = "_blank"
                         >
                             <FcHome className="movie-links-logo" />
                             <p style={{marginTop : "1.25vh",marginLeft : "1vh"}}>Visit Homepage</p>
